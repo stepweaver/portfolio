@@ -1,5 +1,9 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
+import freshBurger from '../../assets/fresh-burger.png';
+import hipsster from '../../assets/hipsster.png';
+import fitLift from '../../assets/fitlift.png';
+import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
   return (
@@ -7,11 +11,30 @@ function Projects() {
       <h1 className='sectionTitle'>Projects</h1>
       <div className={styles.projectsContainer}>
         {/* TODO: Replace placeholder projects with your own projects */}
-        <a href='https://github.com/stepweaver/stepweaver.git' target='_blank'>
-          <img className='hover' src={viberr} alt='Viberr logo' />
-          <h3>Viberr</h3>
-          <p>Streaming App</p>
-        </a>
+        <ProjectCard
+          src={viberr}
+          link='https://github.com/stepweaver/stepweaver.git'
+          h3='Viberr'
+          p='Streaming App'
+        />
+        <ProjectCard
+          src={freshBurger}
+          link='https://github.com/stepweaver/stepweaver.git'
+          h3='Fresh Burger'
+          p='Hamburger Restaurant'
+        />
+        <ProjectCard
+          src={hipsster}
+          link='https://github.com/stepweaver/stepweaver.git'
+          h3='Hipsster'
+          p='Glasses Shop'
+        />
+        <ProjectCard
+          src={fitLift}
+          link='https://github.com/stepweaver/stepweaver.git'
+          h3='FitLift'
+          p='Fitness App'
+        />
       </div>
     </section>
   );
