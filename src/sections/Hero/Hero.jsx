@@ -52,7 +52,7 @@ function Hero() {
             <img src={linkedinIcon} alt='linkedin icon' />
           </a>
         </span>
-        <p>
+        <p className={styles.description}>
           With a passion for developing modern web applications. I'm always
           looking to level up my skills, excited to work on new projects and
           collaborate with other creators.
