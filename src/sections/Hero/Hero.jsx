@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
+import Resume from '../../assets/weaver-resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -57,7 +57,7 @@ function Hero() {
           looking to level up my skills, excited to work on new projects and
           collaborate with other creators.
         </p>
-        <a href={CV} download>
+        <a href={Resume} download>
           <button className='hover'>Resume</button>
         </a>
       </div>

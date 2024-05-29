@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import html from '../../assets/html.png';
+import javascript from '../../assets/javascript.png';
+import reactjs from '../../assets/reactjs.png';
+import moon from '../../assets/moon.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -12,28 +12,28 @@ function Projects() {
       <div className={styles.projectsContainer}>
         {/* TODO: Replace placeholder projects with your own projects */}
         <ProjectCard
-          src={viberr}
+          src={html}
           link='https://github.com/stepweaver/stepweaver.git'
-          h3='Viberr'
-          p='Streaming App'
+          h3='HTML'
+          p='Project 1 placeholder'
         />
         <ProjectCard
-          src={freshBurger}
+          src={javascript}
           link='https://github.com/stepweaver/stepweaver.git'
-          h3='Fresh Burger'
-          p='Hamburger Restaurant'
+          h3='Javascript'
+          p='Project 2 Placeholder'
         />
         <ProjectCard
-          src={hipsster}
+          src={reactjs}
           link='https://github.com/stepweaver/stepweaver.git'
-          h3='Hipsster'
-          p='Glasses Shop'
+          h3='React'
+          p='Project 3 placeholder'
         />
         <ProjectCard
-          src={fitLift}
+          src={moon}
           link='https://github.com/stepweaver/stepweaver.git'
-          h3='FitLift'
-          p='Fitness App'
+          h3='To the Moon'
+          p='Project 4 placeholder'
         />
       </div>
     </section>
