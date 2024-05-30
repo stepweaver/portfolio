@@ -6,6 +6,7 @@
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
+  --glow-color: #0D1117;
 }
 
 [data-theme='dark'] {
@@ -16,6 +17,7 @@
   --text-color: #F5F5F5;
   --form-text-color: #F5F5F5;
   --footer-text-color: #bbb;
+  --glow-color: #FE6C0B;
 }
 
 body {
