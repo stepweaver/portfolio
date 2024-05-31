@@ -56,8 +56,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for creating modern web applications creative problem
-          solving. I'm always looking to level up my skills, excited to work on
+          With a passion for creating modern web applications and solving problems. I'm always looking to level up my skills, excited to work on
           new projects and collaborate with other creators.
         </p>
         <a href={Resume} download>
