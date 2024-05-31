@@ -48,14 +48,17 @@ function Hero() {
           <a href='https://github.com/stepweaver' target='_blank'>
             <img src={githubIcon} alt='Github icon' />
           </a>
-          <a href='https://www.linkedin.com/in/stephen-weaver-6221b760/' target='_blank'>
+          <a
+            href='https://www.linkedin.com/in/stephen-weaver-6221b760/'
+            target='_blank'
+          >
             <img src={linkedinIcon} alt='linkedin icon' />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern web applications. I'm always
-          looking to level up my skills, excited to work on new projects and
-          collaborate with other creators.
+          With a passion for creating modern web applications creative problem
+          solving. I'm always looking to level up my skills, excited to work on
+          new projects and collaborate with other creators.
         </p>
         <a href={Resume} download>
           <button className='hover'>Resume</button>
