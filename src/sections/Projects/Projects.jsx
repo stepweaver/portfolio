@@ -14,7 +14,7 @@ function Projects() {
         <ProjectCard
           src={blog}
           link='https://stepweaver.github.io/blog/'
-          h3='Blog'
+          h3='>_blog'
           p='HTML + CSS Class Project'
         />
         <ProjectCard
