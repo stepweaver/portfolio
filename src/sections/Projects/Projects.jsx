@@ -13,7 +13,7 @@ function Projects() {
         {/* TODO: Replace placeholder projects with your own projects */}
         <ProjectCard
           src={html}
-          link='https://github.com/stepweaver/stepweaver.git'
+          link='https://stepweaver.github.io/blog/'
           h3='HTML'
           p='Project 1 placeholder'
         />
