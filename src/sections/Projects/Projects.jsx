@@ -1,5 +1,5 @@
 import styles from './ProjectsStyles.module.css';
-import html from '../../assets/html.png';
+import blog from '../../assets/strongbad.jpg';
 import javascript from '../../assets/javascript.png';
 import reactjs from '../../assets/reactjs.png';
 import moon from '../../assets/moon.png';
@@ -12,10 +12,10 @@ function Projects() {
       <div className={styles.projectsContainer}>
         {/* TODO: Replace placeholder projects with your own projects */}
         <ProjectCard
-          src={html}
+          src={blog}
           link='https://stepweaver.github.io/blog/'
-          h3='HTML'
-          p='Project 1 placeholder'
+          h3='Blog'
+          p='HTML and CSS Class Project'
         />
         <ProjectCard
           src={javascript}
